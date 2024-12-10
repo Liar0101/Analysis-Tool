@@ -3,7 +3,7 @@ Analysis tools are divided into two parts: visualization tool and correction too
 
 Visualization tool
   
-  The visualization tool is built on Python code and includes three parts: preprocessing, crossover analysis, and statistical results.
+  The visualization tool is built on Python and Generic Mapping Tools, includes three parts: preprocessing, crossover analysis, and statistical results.
 
   The preprocessing module obtains the longitude, latitude, and depth information of the depth measurement points from the original mgd77 file, and interpolates the depth measurement points in the model from the bathymetric model file.
     The input folder contains the m77t suffix files that need to be preprocessed. The output folder contains multiple independent folders, which correspond one-to-one with the SID. The model file refers to the nc/grd file.
